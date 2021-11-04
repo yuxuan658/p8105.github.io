@@ -11,3 +11,4 @@ navbar:
       href: http://github.com/<yuxuan658>/
 output:
   html_document:
+    theme: flatly

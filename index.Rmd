@@ -2,6 +2,7 @@
 title: "My awesome website"
 output: 
   html_document:
+    code_folding: hide
     toc: true
     toc_float: true
 ---
@@ -30,6 +31,8 @@ rnorm(10)
 
 Here is my cat, ted:
 ![](image/ted.jpg)
+(use html directly, since can change jpg style easier): \newline
+<img src="image/ted.jpg" style="width:75%>
 
 ## Link to page within the site
     by format: [text for link](name of .html)
@@ -41,4 +44,16 @@ All our pages have styling, output, and structure coming from page-specific YAML
 
 How to create: Create _site.yml file by going to File > New File > Text file. save the file as _site.yml in project’s home folder.
 
+theme: change the background of website (`default theme` in p8105.com)
 
+## Quarterly Results {.tabset}
+
+### By Product
+This is my first tab
+
+### By Region
+
+This is my second tab
+
+## This is a new section
+Really great
