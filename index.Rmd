@@ -42,9 +42,13 @@ Here is my cat, ted:
 ## _site.yml
 All our pages have styling, output, and structure coming from page-specific YAML. Create your _site.yml to have one set of rules that apply site-wide.
 
-How to create: Create _site.yml file by going to File > New File > Text file. save the file as _site.yml in project’s home folder.
+How to create: Create _site.yml file by going to : 
+        File > New File > Text file. save the file as _site.yml in project’s home folder.
 
 theme: change the background of website (`default theme` in p8105.com)
+```{r}
+#添加标题/恩扭选项在网页上，使得两个页面可以相连接
+```
 
 ## Quarterly Results {.tabset}
 
